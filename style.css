@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    box-sizing:border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+
+body {
+    height: 100vh;
+    font-family:'Roboto',sans-serif
+}
+
+main {
+    height: 100%;
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+    display:flex;
+}
+aside {
+    width:50%;
+}
+
+aside img {
+    width:100%;
+    object-fit: cover;
+}
+
+section {
+    width: 50%;
+    padding-top: 232px;
+    padding-left: 193px;
+    padding-right: 177px;
+    padding-bottom: 50px;
+}
+
+.title-login {
+    font-size: 30px;
+    color:#1A202C;
+    font-weight:bold;
+    margin-bottom:24px;
+}
+
+.title-login span {
+    font-weight:400;
+    font-size:16px;
+    display:block;
+    color: #2D3748;
+}
+
+.form_login .form_login_input {
+    display:flex;
+    flex-direction: column;
+    gap:11px;
+    margin-bottom: 11px;
+}
+
+.form_login_input label {
+    color: #4A5568;
+}
+
+.form_login_input input {
+    font-family: inherit;
+    padding: 17px 20px;
+    color: #2D3748;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form_login_options {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_login_options_remember input {
+    margin-right: 11px;
+}
+
+.form_login_options_remember label {
+    font-size: 14px;
+}
+
+.form_login_options a {
+    color: #2C5282;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form_login_buttons {
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form_login_buttons button {
+    padding: 15px 0px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: 700;
+    color: white;
+}
+
+.form_login_buttons_login {
+    background-color: green;
+}
+
+.form_login_buttons_Google {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+footer {
+    margin-top:162px;
+
+}
+
+footer p {
+    text-align:center;
+    color: #616161;
+    font-weight:400;
+    font-size: 16px;
+}
+
+footer a {
+    text-decoration: none;
+
+}
+
+.form_login_buttons img {
+    width: 20px;
+}
+
+
+
+
+
+
