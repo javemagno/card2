@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color: #D8E1E9;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 558px;
+    padding: 25px 32px;
+    border-radius: 10px;
+    /*border: 1px solid #000000;*/
+    background-color: white;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-descripcion {
+    margin-top:14px;
+    margin-bottom:17px;
+    width:498px;
+    position:relative;
+}
+
+.card-descripcion p {
+    font-size:14px;
+    line-height: 20px;
+    color:RGBA(0,0,0,0.7);
+    font-weight:400;
+}
+
+.card-descripcion span {
+    font-weight:600;
+    position: absolute;
+    right:10px;
+    bottom:0px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h2 span {
+    display: block;
+}
+
+.foto-profile {
+    width: 60px;
+    height:60px;
+}
+
+.tres-puntos {
+    width: 22px;
+    height: 6px;
+}
+
+.card-header h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-header span {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.foto-body {
+    width:498px;
+    height:270px;
+    margin-bottom: 21px
+}
+
+.icons {
+    display:flex;
+    gap: 51px;
+}
+
+.icons p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icon-like img {
+    width: 18px;
+    height:16px;
+}
+
+.icon-comment img {
+    width:15px;
+    height:16px;
+}
+
+.icon-retweet img {
+    width: 20px;
+    height: 16px;
+}
+
+.icon-like, .icon-comment, .icon-retweet {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-comentario {
+    margin-top: 37px;
+    display:flex;
+    gap:7px;
+}
+
+.comentario-foto img {
+    width: 46px;
+    height: 46px;
+}
+
+.comentario-input {
+    width: 428px;
+    background-color:#F0F1F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:13px;
+    padding-right:13px;
+    border-radius: 10px;
+}
+
+.comentario-texto p {
+    color: RGBA(0,0,0,27%);
+    font-size: 16px;
+    font-weight:500;
+}
+
+.botones-comentario {
+    display: flex;
+    gap: 44px;
+}
+
+.botones-comentario img {
+    width: 12px;
+    height: 13.39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
