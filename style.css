@@ -124,61 +124,58 @@ h2 span {
     gap: 10px;
 }
 
-.card-comentario {
-    margin-top: 37px;
-    display:flex;
-    gap:7px;
-}
-
-.comentario-foto img {
-    width: 46px;
-    height: 46px;
-}
-
-.comentario-input {
-    width: 428px;
-    background-color:#F0F1F4;
+.card-footer {
     display: flex;
+    gap: 7px;
     align-items: center;
-    justify-content: space-between;
-    padding-left:13px;
-    padding-right:13px;
+    margin-top: 37px;
+}
+
+.card-footer img {
+    width: 46px;
+}
+
+.card-footer-input {
+    flex: 1;
+    position:relative;
+}
+
+.card-footer input {
+    width: 100%;
+    height: 46px;
     border-radius: 10px;
-}
-
-.comentario-texto p {
-    color: RGBA(0,0,0,27%);
+    background-color: #F0F1F4;
+    font-family:inherit;
+    font-weight: 500;
     font-size: 16px;
+    border: none;
+    padding:0 13px;
+}
+
+.card-footer-input input::placeholder {
+    font-size:16px;
     font-weight:500;
+    color: rgba(0,0,0,0.27);
 }
 
-.botones-comentario {
-    display: flex;
-    gap: 44px;
+.card-footer-input input:focus {
+    outline:none;
+    border: 2px solid #00BCD4;
 }
 
-.botones-comentario img {
-    width: 12px;
-    height: 13.39px;
+.card-footer-input::before {
+    content: url(./img/happy-face.png);
+    right: 80px;
 }
 
+.card-footer-input::after {
+    content:url(./img/send-picture.png);
+    right: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-footer-input:before, .card-footer-input::after {
+    position: absolute;
+    width:12px;
+    height:13px;
+    top:10px;
+}
